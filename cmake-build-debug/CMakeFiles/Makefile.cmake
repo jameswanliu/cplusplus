@@ -54,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cplusplus_base.dir/DependInfo.cmake"
+  "CMakeFiles/template.dir/DependInfo.cmake"
   "CMakeFiles/duotai.dir/DependInfo.cmake"
   "CMakeFiles/string.dir/DependInfo.cmake"
+  "CMakeFiles/const.dir/DependInfo.cmake"
   )

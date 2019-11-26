@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Users/kevin/cworkspace/cplusplus_base/duotai/duotai.cpp" "D:/Users/kevin/cworkspace/cplusplus_base/cmake-build-debug/CMakeFiles/duotai.dir/duotai/duotai.cpp.obj"
+  "D:/Users/james/clionworkspace/cPlusplus_master/duotai/duotai.cpp" "D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/CMakeFiles/duotai.dir/duotai/duotai.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

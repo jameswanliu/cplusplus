@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\kevin\cworkspace\cplusplus_base
+CMAKE_SOURCE_DIR = D:\Users\james\clionworkspace\cPlusplus_master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\kevin\cworkspace\cplusplus_base\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\cplusplus_base\cmake-build-debug\CMakeFiles D:\Users\kevin\cworkspace\cplusplus_base\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\cplusplus_base\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ cplusplus_base/fast:
 .PHONY : cplusplus_base/fast
 
 #=============================================================================
+# Target rules for targets named template
+
+# Build rule for target.
+template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 template
+.PHONY : template
+
+# fast build rule for target.
+template/fast:
+	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/build
+.PHONY : template/fast
+
+#=============================================================================
 # Target rules for targets named duotai
 
 # Build rule for target.
@@ -147,6 +160,46 @@ string: cmake_check_build_system
 string/fast:
 	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/build
 .PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named const
+
+# Build rule for target.
+const: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 const
+.PHONY : const
+
+# fast build rule for target.
+const/fast:
+	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/build
+.PHONY : const/fast
+
+const/const_summed_up.obj: const/const_summed_up.cpp.obj
+
+.PHONY : const/const_summed_up.obj
+
+# target to build an object file
+const/const_summed_up.cpp.obj:
+	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/const/const_summed_up.cpp.obj
+.PHONY : const/const_summed_up.cpp.obj
+
+const/const_summed_up.i: const/const_summed_up.cpp.i
+
+.PHONY : const/const_summed_up.i
+
+# target to preprocess a source file
+const/const_summed_up.cpp.i:
+	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/const/const_summed_up.cpp.i
+.PHONY : const/const_summed_up.cpp.i
+
+const/const_summed_up.s: const/const_summed_up.cpp.s
+
+.PHONY : const/const_summed_up.s
+
+# target to generate assembly for a file
+const/const_summed_up.cpp.s:
+	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/const/const_summed_up.cpp.s
+.PHONY : const/const_summed_up.cpp.s
 
 duotai/duotai.obj: duotai/duotai.cpp.obj
 
@@ -229,6 +282,33 @@ string/teststring.cpp.s:
 	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/string/teststring.cpp.s
 .PHONY : string/teststring.cpp.s
 
+template/template.obj: template/template.cpp.obj
+
+.PHONY : template/template.obj
+
+# target to build an object file
+template/template.cpp.obj:
+	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/template/template.cpp.obj
+.PHONY : template/template.cpp.obj
+
+template/template.i: template/template.cpp.i
+
+.PHONY : template/template.i
+
+# target to preprocess a source file
+template/template.cpp.i:
+	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/template/template.cpp.i
+.PHONY : template/template.cpp.i
+
+template/template.s: template/template.cpp.s
+
+.PHONY : template/template.s
+
+# target to generate assembly for a file
+template/template.cpp.s:
+	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/template/template.cpp.s
+.PHONY : template/template.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -236,10 +316,15 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... cplusplus_base
+	@echo ... template
 	@echo ... duotai
 	@echo ... edit_cache
 	@echo ... string
+	@echo ... const
 	@echo ... rebuild_cache
+	@echo ... const/const_summed_up.obj
+	@echo ... const/const_summed_up.i
+	@echo ... const/const_summed_up.s
 	@echo ... duotai/duotai.obj
 	@echo ... duotai/duotai.i
 	@echo ... duotai/duotai.s
@@ -249,6 +334,9 @@ help:
 	@echo ... string/teststring.obj
 	@echo ... string/teststring.i
 	@echo ... string/teststring.s
+	@echo ... template/template.obj
+	@echo ... template/template.i
+	@echo ... template/template.s
 .PHONY : help
 
 
