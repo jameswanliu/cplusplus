@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-de
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -174,6 +174,191 @@ const/fast:
 	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/build
 .PHONY : const/fast
 
+#=============================================================================
+# Target rules for targets named casttype
+
+# Build rule for target.
+casttype: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 casttype
+.PHONY : casttype
+
+# fast build rule for target.
+casttype/fast:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/build
+.PHONY : casttype/fast
+
+#=============================================================================
+# Target rules for targets named extend
+
+# Build rule for target.
+extend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 extend
+.PHONY : extend
+
+# fast build rule for target.
+extend/fast:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/build
+.PHONY : extend/fast
+
+#=============================================================================
+# Target rules for targets named namespaces
+
+# Build rule for target.
+namespaces: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 namespaces
+.PHONY : namespaces
+
+# fast build rule for target.
+namespaces/fast:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/build
+.PHONY : namespaces/fast
+
+#=============================================================================
+# Target rules for targets named function
+
+# Build rule for target.
+function: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 function
+.PHONY : function
+
+# fast build rule for target.
+function/fast:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/build
+.PHONY : function/fast
+
+#=============================================================================
+# Target rules for targets named functionoverloading
+
+# Build rule for target.
+functionoverloading: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 functionoverloading
+.PHONY : functionoverloading
+
+# fast build rule for target.
+functionoverloading/fast:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/build
+.PHONY : functionoverloading/fast
+
+#=============================================================================
+# Target rules for targets named friend
+
+# Build rule for target.
+friend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 friend
+.PHONY : friend
+
+# fast build rule for target.
+friend/fast:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/build
+.PHONY : friend/fast
+
+#=============================================================================
+# Target rules for targets named duotai_extend
+
+# Build rule for target.
+duotai_extend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 duotai_extend
+.PHONY : duotai_extend
+
+# fast build rule for target.
+duotai_extend/fast:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/build
+.PHONY : duotai_extend/fast
+
+#=============================================================================
+# Target rules for targets named object_size
+
+# Build rule for target.
+object_size: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 object_size
+.PHONY : object_size
+
+# fast build rule for target.
+object_size/fast:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/build
+.PHONY : object_size/fast
+
+FunctionOverloading.obj: FunctionOverloading.cpp.obj
+
+.PHONY : FunctionOverloading.obj
+
+# target to build an object file
+FunctionOverloading.cpp.obj:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/FunctionOverloading.cpp.obj
+.PHONY : FunctionOverloading.cpp.obj
+
+FunctionOverloading.i: FunctionOverloading.cpp.i
+
+.PHONY : FunctionOverloading.i
+
+# target to preprocess a source file
+FunctionOverloading.cpp.i:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/FunctionOverloading.cpp.i
+.PHONY : FunctionOverloading.cpp.i
+
+FunctionOverloading.s: FunctionOverloading.cpp.s
+
+.PHONY : FunctionOverloading.s
+
+# target to generate assembly for a file
+FunctionOverloading.cpp.s:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/FunctionOverloading.cpp.s
+.PHONY : FunctionOverloading.cpp.s
+
+Funtion.obj: Funtion.cpp.obj
+
+.PHONY : Funtion.obj
+
+# target to build an object file
+Funtion.cpp.obj:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/Funtion.cpp.obj
+.PHONY : Funtion.cpp.obj
+
+Funtion.i: Funtion.cpp.i
+
+.PHONY : Funtion.i
+
+# target to preprocess a source file
+Funtion.cpp.i:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/Funtion.cpp.i
+.PHONY : Funtion.cpp.i
+
+Funtion.s: Funtion.cpp.s
+
+.PHONY : Funtion.s
+
+# target to generate assembly for a file
+Funtion.cpp.s:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/Funtion.cpp.s
+.PHONY : Funtion.cpp.s
+
+casttype.obj: casttype.cpp.obj
+
+.PHONY : casttype.obj
+
+# target to build an object file
+casttype.cpp.obj:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/casttype.cpp.obj
+.PHONY : casttype.cpp.obj
+
+casttype.i: casttype.cpp.i
+
+.PHONY : casttype.i
+
+# target to preprocess a source file
+casttype.cpp.i:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/casttype.cpp.i
+.PHONY : casttype.cpp.i
+
+casttype.s: casttype.cpp.s
+
+.PHONY : casttype.s
+
+# target to generate assembly for a file
+casttype.cpp.s:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/casttype.cpp.s
+.PHONY : casttype.cpp.s
+
 const/const_summed_up.obj: const/const_summed_up.cpp.obj
 
 .PHONY : const/const_summed_up.obj
@@ -228,6 +413,87 @@ duotai/duotai.cpp.s:
 	$(MAKE) -f CMakeFiles\duotai.dir\build.make CMakeFiles/duotai.dir/duotai/duotai.cpp.s
 .PHONY : duotai/duotai.cpp.s
 
+duotai_extend.obj: duotai_extend.cpp.obj
+
+.PHONY : duotai_extend.obj
+
+# target to build an object file
+duotai_extend.cpp.obj:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/duotai_extend.cpp.obj
+.PHONY : duotai_extend.cpp.obj
+
+duotai_extend.i: duotai_extend.cpp.i
+
+.PHONY : duotai_extend.i
+
+# target to preprocess a source file
+duotai_extend.cpp.i:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/duotai_extend.cpp.i
+.PHONY : duotai_extend.cpp.i
+
+duotai_extend.s: duotai_extend.cpp.s
+
+.PHONY : duotai_extend.s
+
+# target to generate assembly for a file
+duotai_extend.cpp.s:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/duotai_extend.cpp.s
+.PHONY : duotai_extend.cpp.s
+
+extend.obj: extend.cpp.obj
+
+.PHONY : extend.obj
+
+# target to build an object file
+extend.cpp.obj:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/extend.cpp.obj
+.PHONY : extend.cpp.obj
+
+extend.i: extend.cpp.i
+
+.PHONY : extend.i
+
+# target to preprocess a source file
+extend.cpp.i:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/extend.cpp.i
+.PHONY : extend.cpp.i
+
+extend.s: extend.cpp.s
+
+.PHONY : extend.s
+
+# target to generate assembly for a file
+extend.cpp.s:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/extend.cpp.s
+.PHONY : extend.cpp.s
+
+friend/friends.obj: friend/friends.cpp.obj
+
+.PHONY : friend/friends.obj
+
+# target to build an object file
+friend/friends.cpp.obj:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/friend/friends.cpp.obj
+.PHONY : friend/friends.cpp.obj
+
+friend/friends.i: friend/friends.cpp.i
+
+.PHONY : friend/friends.i
+
+# target to preprocess a source file
+friend/friends.cpp.i:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/friend/friends.cpp.i
+.PHONY : friend/friends.cpp.i
+
+friend/friends.s: friend/friends.cpp.s
+
+.PHONY : friend/friends.s
+
+# target to generate assembly for a file
+friend/friends.cpp.s:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/friend/friends.cpp.s
+.PHONY : friend/friends.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -254,6 +520,60 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\cplusplus_base.dir\build.make CMakeFiles/cplusplus_base.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+namespace_demo.obj: namespace_demo.cpp.obj
+
+.PHONY : namespace_demo.obj
+
+# target to build an object file
+namespace_demo.cpp.obj:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/namespace_demo.cpp.obj
+.PHONY : namespace_demo.cpp.obj
+
+namespace_demo.i: namespace_demo.cpp.i
+
+.PHONY : namespace_demo.i
+
+# target to preprocess a source file
+namespace_demo.cpp.i:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/namespace_demo.cpp.i
+.PHONY : namespace_demo.cpp.i
+
+namespace_demo.s: namespace_demo.cpp.s
+
+.PHONY : namespace_demo.s
+
+# target to generate assembly for a file
+namespace_demo.cpp.s:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/namespace_demo.cpp.s
+.PHONY : namespace_demo.cpp.s
+
+object_size.obj: object_size.cpp.obj
+
+.PHONY : object_size.obj
+
+# target to build an object file
+object_size.cpp.obj:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/object_size.cpp.obj
+.PHONY : object_size.cpp.obj
+
+object_size.i: object_size.cpp.i
+
+.PHONY : object_size.i
+
+# target to preprocess a source file
+object_size.cpp.i:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/object_size.cpp.i
+.PHONY : object_size.cpp.i
+
+object_size.s: object_size.cpp.s
+
+.PHONY : object_size.s
+
+# target to generate assembly for a file
+object_size.cpp.s:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/object_size.cpp.s
+.PHONY : object_size.cpp.s
 
 string/teststring.obj: string/teststring.cpp.obj
 
@@ -318,19 +638,51 @@ help:
 	@echo ... cplusplus_base
 	@echo ... template
 	@echo ... duotai
-	@echo ... edit_cache
 	@echo ... string
 	@echo ... const
+	@echo ... casttype
+	@echo ... extend
+	@echo ... namespaces
+	@echo ... function
 	@echo ... rebuild_cache
+	@echo ... functionoverloading
+	@echo ... friend
+	@echo ... duotai_extend
+	@echo ... object_size
+	@echo ... edit_cache
+	@echo ... FunctionOverloading.obj
+	@echo ... FunctionOverloading.i
+	@echo ... FunctionOverloading.s
+	@echo ... Funtion.obj
+	@echo ... Funtion.i
+	@echo ... Funtion.s
+	@echo ... casttype.obj
+	@echo ... casttype.i
+	@echo ... casttype.s
 	@echo ... const/const_summed_up.obj
 	@echo ... const/const_summed_up.i
 	@echo ... const/const_summed_up.s
 	@echo ... duotai/duotai.obj
 	@echo ... duotai/duotai.i
 	@echo ... duotai/duotai.s
+	@echo ... duotai_extend.obj
+	@echo ... duotai_extend.i
+	@echo ... duotai_extend.s
+	@echo ... extend.obj
+	@echo ... extend.i
+	@echo ... extend.s
+	@echo ... friend/friends.obj
+	@echo ... friend/friends.i
+	@echo ... friend/friends.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... namespace_demo.obj
+	@echo ... namespace_demo.i
+	@echo ... namespace_demo.s
+	@echo ... object_size.obj
+	@echo ... object_size.i
+	@echo ... object_size.s
 	@echo ... string/teststring.obj
 	@echo ... string/teststring.i
 	@echo ... string/teststring.s

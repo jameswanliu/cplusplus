@@ -57,6 +57,14 @@ all: CMakeFiles/template.dir/all
 all: CMakeFiles/duotai.dir/all
 all: CMakeFiles/string.dir/all
 all: CMakeFiles/const.dir/all
+all: CMakeFiles/casttype.dir/all
+all: CMakeFiles/extend.dir/all
+all: CMakeFiles/namespaces.dir/all
+all: CMakeFiles/function.dir/all
+all: CMakeFiles/functionoverloading.dir/all
+all: CMakeFiles/friend.dir/all
+all: CMakeFiles/duotai_extend.dir/all
+all: CMakeFiles/object_size.dir/all
 
 .PHONY : all
 
@@ -66,6 +74,14 @@ clean: CMakeFiles/template.dir/clean
 clean: CMakeFiles/duotai.dir/clean
 clean: CMakeFiles/string.dir/clean
 clean: CMakeFiles/const.dir/clean
+clean: CMakeFiles/casttype.dir/clean
+clean: CMakeFiles/extend.dir/clean
+clean: CMakeFiles/namespaces.dir/clean
+clean: CMakeFiles/function.dir/clean
+clean: CMakeFiles/functionoverloading.dir/clean
+clean: CMakeFiles/friend.dir/clean
+clean: CMakeFiles/duotai_extend.dir/clean
+clean: CMakeFiles/object_size.dir/clean
 
 .PHONY : clean
 
@@ -81,7 +97,7 @@ preinstall:
 CMakeFiles/cplusplus_base.dir/all:
 	$(MAKE) -f CMakeFiles\cplusplus_base.dir\build.make CMakeFiles/cplusplus_base.dir/depend
 	$(MAKE) -f CMakeFiles\cplusplus_base.dir\build.make CMakeFiles/cplusplus_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target cplusplus_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target cplusplus_base"
 .PHONY : CMakeFiles/cplusplus_base.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,7 +124,7 @@ CMakeFiles/cplusplus_base.dir/clean:
 CMakeFiles/template.dir/all:
 	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/depend
 	$(MAKE) -f CMakeFiles\template.dir\build.make CMakeFiles/template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target template"
 .PHONY : CMakeFiles/template.dir/all
 
 # Build rule for subdir invocation for target.
@@ -135,7 +151,7 @@ CMakeFiles/template.dir/clean:
 CMakeFiles/duotai.dir/all:
 	$(MAKE) -f CMakeFiles\duotai.dir\build.make CMakeFiles/duotai.dir/depend
 	$(MAKE) -f CMakeFiles\duotai.dir\build.make CMakeFiles/duotai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target duotai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target duotai"
 .PHONY : CMakeFiles/duotai.dir/all
 
 # Build rule for subdir invocation for target.
@@ -162,7 +178,7 @@ CMakeFiles/duotai.dir/clean:
 CMakeFiles/string.dir/all:
 	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/depend
 	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target string"
 .PHONY : CMakeFiles/string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,7 +205,7 @@ CMakeFiles/string.dir/clean:
 CMakeFiles/const.dir/all:
 	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/depend
 	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target const"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target const"
 .PHONY : CMakeFiles/const.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,6 +224,222 @@ const: CMakeFiles/const.dir/rule
 CMakeFiles/const.dir/clean:
 	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/clean
 .PHONY : CMakeFiles/const.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/casttype.dir
+
+# All Build rule for target.
+CMakeFiles/casttype.dir/all:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/depend
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target casttype"
+.PHONY : CMakeFiles/casttype.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/casttype.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/casttype.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/casttype.dir/rule
+
+# Convenience name for target.
+casttype: CMakeFiles/casttype.dir/rule
+
+.PHONY : casttype
+
+# clean rule for target.
+CMakeFiles/casttype.dir/clean:
+	$(MAKE) -f CMakeFiles\casttype.dir\build.make CMakeFiles/casttype.dir/clean
+.PHONY : CMakeFiles/casttype.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/extend.dir
+
+# All Build rule for target.
+CMakeFiles/extend.dir/all:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/depend
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target extend"
+.PHONY : CMakeFiles/extend.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/extend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/extend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/extend.dir/rule
+
+# Convenience name for target.
+extend: CMakeFiles/extend.dir/rule
+
+.PHONY : extend
+
+# clean rule for target.
+CMakeFiles/extend.dir/clean:
+	$(MAKE) -f CMakeFiles\extend.dir\build.make CMakeFiles/extend.dir/clean
+.PHONY : CMakeFiles/extend.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/namespaces.dir
+
+# All Build rule for target.
+CMakeFiles/namespaces.dir/all:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/depend
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target namespaces"
+.PHONY : CMakeFiles/namespaces.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/namespaces.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/namespaces.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/namespaces.dir/rule
+
+# Convenience name for target.
+namespaces: CMakeFiles/namespaces.dir/rule
+
+.PHONY : namespaces
+
+# clean rule for target.
+CMakeFiles/namespaces.dir/clean:
+	$(MAKE) -f CMakeFiles\namespaces.dir\build.make CMakeFiles/namespaces.dir/clean
+.PHONY : CMakeFiles/namespaces.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/function.dir
+
+# All Build rule for target.
+CMakeFiles/function.dir/all:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/depend
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target function"
+.PHONY : CMakeFiles/function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/function.dir/rule
+
+# Convenience name for target.
+function: CMakeFiles/function.dir/rule
+
+.PHONY : function
+
+# clean rule for target.
+CMakeFiles/function.dir/clean:
+	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/clean
+.PHONY : CMakeFiles/function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/functionoverloading.dir
+
+# All Build rule for target.
+CMakeFiles/functionoverloading.dir/all:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/depend
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target functionoverloading"
+.PHONY : CMakeFiles/functionoverloading.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/functionoverloading.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/functionoverloading.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/functionoverloading.dir/rule
+
+# Convenience name for target.
+functionoverloading: CMakeFiles/functionoverloading.dir/rule
+
+.PHONY : functionoverloading
+
+# clean rule for target.
+CMakeFiles/functionoverloading.dir/clean:
+	$(MAKE) -f CMakeFiles\functionoverloading.dir\build.make CMakeFiles/functionoverloading.dir/clean
+.PHONY : CMakeFiles/functionoverloading.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/friend.dir
+
+# All Build rule for target.
+CMakeFiles/friend.dir/all:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/depend
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target friend"
+.PHONY : CMakeFiles/friend.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/friend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/friend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/friend.dir/rule
+
+# Convenience name for target.
+friend: CMakeFiles/friend.dir/rule
+
+.PHONY : friend
+
+# clean rule for target.
+CMakeFiles/friend.dir/clean:
+	$(MAKE) -f CMakeFiles\friend.dir\build.make CMakeFiles/friend.dir/clean
+.PHONY : CMakeFiles/friend.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/duotai_extend.dir
+
+# All Build rule for target.
+CMakeFiles/duotai_extend.dir/all:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/depend
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target duotai_extend"
+.PHONY : CMakeFiles/duotai_extend.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/duotai_extend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/duotai_extend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/duotai_extend.dir/rule
+
+# Convenience name for target.
+duotai_extend: CMakeFiles/duotai_extend.dir/rule
+
+.PHONY : duotai_extend
+
+# clean rule for target.
+CMakeFiles/duotai_extend.dir/clean:
+	$(MAKE) -f CMakeFiles\duotai_extend.dir\build.make CMakeFiles/duotai_extend.dir/clean
+.PHONY : CMakeFiles/duotai_extend.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/object_size.dir
+
+# All Build rule for target.
+CMakeFiles/object_size.dir/all:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/depend
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target object_size"
+.PHONY : CMakeFiles/object_size.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/object_size.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/object_size.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\cPlusplus_master\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/object_size.dir/rule
+
+# Convenience name for target.
+object_size: CMakeFiles/object_size.dir/rule
+
+.PHONY : object_size
+
+# clean rule for target.
+CMakeFiles/object_size.dir/clean:
+	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/clean
+.PHONY : CMakeFiles/object_size.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -19,36 +19,36 @@
 
 using namespace std;
 
-template <typename T>
+template<typename T>
 
-T sum (T a,T b){
-    return a+b;
+T sum(T a, T b) {
+    return a + b;
 }
 
 
-template <class T>
-class Callbak{
+template<class T>
+class Callbak {
 
 
 public:
-    void onSuccess(T msg){
-        cout<<msg<<endl;
+    void onSuccess(T msg) {
+        cout << msg << endl;
     }
 
 
-    void onFail(T error){
-        cout<<error<<endl;
+    void onFail(T error) {
+        cout << error << endl;
     }
 };
 
 
-int main(){
-    cout<<"sum ="<<sum(1.0,2.0)<<endl;
+int main() {
+    cout << "sum =" << sum(1.0, 2.0) << endl;
 
 
-    Callbak<string>* callbak = new Callbak<string>();
+    Callbak<string> *callbak = new Callbak<string>();
     callbak->onSuccess("success");
-
+    delete (callbak);
 
     return 0;
 }

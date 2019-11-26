@@ -58,4 +58,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/duotai.dir/DependInfo.cmake"
   "CMakeFiles/string.dir/DependInfo.cmake"
   "CMakeFiles/const.dir/DependInfo.cmake"
+  "CMakeFiles/casttype.dir/DependInfo.cmake"
+  "CMakeFiles/extend.dir/DependInfo.cmake"
+  "CMakeFiles/namespaces.dir/DependInfo.cmake"
+  "CMakeFiles/function.dir/DependInfo.cmake"
+  "CMakeFiles/functionoverloading.dir/DependInfo.cmake"
+  "CMakeFiles/friend.dir/DependInfo.cmake"
+  "CMakeFiles/duotai_extend.dir/DependInfo.cmake"
+  "CMakeFiles/object_size.dir/DependInfo.cmake"
   )
