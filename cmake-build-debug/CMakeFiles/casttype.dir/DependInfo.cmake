@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Users/james/clionworkspace/cPlusplus_master/casttype.cpp" "D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/CMakeFiles/casttype.dir/casttype.cpp.obj"
+  "D:/Users/kevin/cworkspace/c_plus/cplusplus/casttype.cpp" "D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/casttype.dir/casttype.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

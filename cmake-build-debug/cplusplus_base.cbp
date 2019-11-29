@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cplusplus_base">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/cplusplus_base.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/cplusplus_base.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_base"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_base"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cplusplus_base/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/cplusplus_base.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/cplusplus_base.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_base/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_base/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="template">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/template.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -74,15 +74,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 template"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 template"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="template/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/template.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -95,15 +95,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 template/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 template/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="duotai">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/duotai.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/duotai.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -116,15 +116,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="duotai/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/duotai.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/duotai.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -137,15 +137,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="string">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -158,15 +158,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 string"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 string"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="string/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -179,15 +179,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 string/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 string/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="const">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/const.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/const.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -200,15 +200,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 const"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 const"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="const/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/const.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/const.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -221,15 +221,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 const/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 const/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="casttype">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/casttype.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/casttype.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -242,15 +242,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 casttype"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 casttype"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="casttype/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/casttype.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/casttype.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -263,15 +263,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 casttype/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 casttype/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="extend">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/extend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/extend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -284,15 +284,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 extend"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 extend"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="extend/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/extend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/extend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -305,15 +305,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 extend/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 extend/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="namespaces">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/namespaces.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/namespaces.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -326,15 +326,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespaces"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespaces"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="namespaces/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/namespaces.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/namespaces.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -347,15 +347,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespaces/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespaces/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="function">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/function.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -368,15 +368,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 function"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 function"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="function/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/function.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -389,25 +389,25 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 function/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 function/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="functionoverloading">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/functionoverloading.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/functionoverloading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -420,15 +420,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionoverloading"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionoverloading"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="functionoverloading/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/functionoverloading.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/functionoverloading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -441,15 +441,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionoverloading/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionoverloading/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="friend">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/friend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -462,15 +462,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 friend"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 friend"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="friend/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/friend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -483,15 +483,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 friend/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 friend/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="duotai_extend">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/duotai_extend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/duotai_extend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -504,15 +504,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai_extend"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai_extend"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="duotai_extend/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/duotai_extend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/duotai_extend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -525,15 +525,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai_extend/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 duotai_extend/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="object_size">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/object_size.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/object_size.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -546,15 +546,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 object_size"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 object_size"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="object_size/fast">
-				<Option output="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/object_size.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/object_size.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -567,69 +567,69 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 object_size/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 object_size/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/FunctionOverloading.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/FunctionOverloading.cpp">
 			<Option target="functionoverloading"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/FunctionOverloading.h">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/FunctionOverloading.h">
 			<Option target="functionoverloading"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/Funtion.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/Funtion.cpp">
 			<Option target="function"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/casttype.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/casttype.cpp">
 			<Option target="casttype"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/const/const_summed_up.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/const/const_summed_up.cpp">
 			<Option target="const"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/duotai/duotai.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/duotai/duotai.cpp">
 			<Option target="duotai"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/duotai_extend.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/duotai_extend.cpp">
 			<Option target="duotai_extend"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/extend.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/extend.cpp">
 			<Option target="extend"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/friend/friends.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/friend/friends.cpp">
 			<Option target="friend"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/main.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/main.cpp">
 			<Option target="cplusplus_base"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/namespace_demo.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/namespace_demo.cpp">
 			<Option target="namespaces"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/namespace_demo.h">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/namespace_demo.h">
 			<Option target="namespaces"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/object_size.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/object_size.cpp">
 			<Option target="object_size"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/string/teststring.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/string/teststring.cpp">
 			<Option target="string"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/template/template.cpp">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/template/template.cpp">
 			<Option target="template"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/cPlusplus_master/CMakeLists.txt">
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

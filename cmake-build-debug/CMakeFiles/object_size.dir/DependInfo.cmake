@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Users/james/clionworkspace/cPlusplus_master/object_size.cpp" "D:/Users/james/clionworkspace/cPlusplus_master/cmake-build-debug/CMakeFiles/object_size.dir/object_size.cpp.obj"
+  "D:/Users/kevin/cworkspace/c_plus/cplusplus/object_size.cpp" "D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/object_size.dir/object_size.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
