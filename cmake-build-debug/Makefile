@@ -278,6 +278,32 @@ object_size/fast:
 	$(MAKE) -f CMakeFiles\object_size.dir\build.make CMakeFiles/object_size.dir/build
 .PHONY : object_size/fast
 
+#=============================================================================
+# Target rules for targets named seqlist
+
+# Build rule for target.
+seqlist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 seqlist
+.PHONY : seqlist
+
+# fast build rule for target.
+seqlist/fast:
+	$(MAKE) -f CMakeFiles\seqlist.dir\build.make CMakeFiles/seqlist.dir/build
+.PHONY : seqlist/fast
+
+#=============================================================================
+# Target rules for targets named container
+
+# Build rule for target.
+container: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 container
+.PHONY : container
+
+# fast build rule for target.
+container/fast:
+	$(MAKE) -f CMakeFiles\container.dir\build.make CMakeFiles/container.dir/build
+.PHONY : container/fast
+
 FunctionOverloading.obj: FunctionOverloading.cpp.obj
 
 .PHONY : FunctionOverloading.obj
@@ -332,6 +358,33 @@ Funtion.cpp.s:
 	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/Funtion.cpp.s
 .PHONY : Funtion.cpp.s
 
+Seqlist.obj: Seqlist.cpp.obj
+
+.PHONY : Seqlist.obj
+
+# target to build an object file
+Seqlist.cpp.obj:
+	$(MAKE) -f CMakeFiles\seqlist.dir\build.make CMakeFiles/seqlist.dir/Seqlist.cpp.obj
+.PHONY : Seqlist.cpp.obj
+
+Seqlist.i: Seqlist.cpp.i
+
+.PHONY : Seqlist.i
+
+# target to preprocess a source file
+Seqlist.cpp.i:
+	$(MAKE) -f CMakeFiles\seqlist.dir\build.make CMakeFiles/seqlist.dir/Seqlist.cpp.i
+.PHONY : Seqlist.cpp.i
+
+Seqlist.s: Seqlist.cpp.s
+
+.PHONY : Seqlist.s
+
+# target to generate assembly for a file
+Seqlist.cpp.s:
+	$(MAKE) -f CMakeFiles\seqlist.dir\build.make CMakeFiles/seqlist.dir/Seqlist.cpp.s
+.PHONY : Seqlist.cpp.s
+
 casttype.obj: casttype.cpp.obj
 
 .PHONY : casttype.obj
@@ -385,6 +438,33 @@ const/const_summed_up.s: const/const_summed_up.cpp.s
 const/const_summed_up.cpp.s:
 	$(MAKE) -f CMakeFiles\const.dir\build.make CMakeFiles/const.dir/const/const_summed_up.cpp.s
 .PHONY : const/const_summed_up.cpp.s
+
+container.obj: container.cpp.obj
+
+.PHONY : container.obj
+
+# target to build an object file
+container.cpp.obj:
+	$(MAKE) -f CMakeFiles\container.dir\build.make CMakeFiles/container.dir/container.cpp.obj
+.PHONY : container.cpp.obj
+
+container.i: container.cpp.i
+
+.PHONY : container.i
+
+# target to preprocess a source file
+container.cpp.i:
+	$(MAKE) -f CMakeFiles\container.dir\build.make CMakeFiles/container.dir/container.cpp.i
+.PHONY : container.cpp.i
+
+container.s: container.cpp.s
+
+.PHONY : container.s
+
+# target to generate assembly for a file
+container.cpp.s:
+	$(MAKE) -f CMakeFiles\container.dir\build.make CMakeFiles/container.dir/container.cpp.s
+.PHONY : container.cpp.s
 
 duotai/duotai.obj: duotai/duotai.cpp.obj
 
@@ -649,6 +729,8 @@ help:
 	@echo ... friend
 	@echo ... duotai_extend
 	@echo ... object_size
+	@echo ... seqlist
+	@echo ... container
 	@echo ... edit_cache
 	@echo ... FunctionOverloading.obj
 	@echo ... FunctionOverloading.i
@@ -656,12 +738,18 @@ help:
 	@echo ... Funtion.obj
 	@echo ... Funtion.i
 	@echo ... Funtion.s
+	@echo ... Seqlist.obj
+	@echo ... Seqlist.i
+	@echo ... Seqlist.s
 	@echo ... casttype.obj
 	@echo ... casttype.i
 	@echo ... casttype.s
 	@echo ... const/const_summed_up.obj
 	@echo ... const/const_summed_up.i
 	@echo ... const/const_summed_up.s
+	@echo ... container.obj
+	@echo ... container.i
+	@echo ... container.s
 	@echo ... duotai/duotai.obj
 	@echo ... duotai/duotai.i
 	@echo ... duotai/duotai.s

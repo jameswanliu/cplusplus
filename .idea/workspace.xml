@@ -9,9 +9,11 @@
       <config projectName="cplusplus_base" targetName="extend" />
       <config projectName="cplusplus_base" targetName="const" />
       <config projectName="cplusplus_base" targetName="string" />
+      <config projectName="cplusplus_base" targetName="seqlist" />
       <config projectName="cplusplus_base" targetName="duotai_extend" />
       <config projectName="cplusplus_base" targetName="object_size" />
       <config projectName="cplusplus_base" targetName="function" />
+      <config projectName="cplusplus_base" targetName="container" />
       <config projectName="cplusplus_base" targetName="cplusplus_base" />
       <config projectName="cplusplus_base" targetName="template" />
       <config projectName="cplusplus_base" targetName="namespaces" />
@@ -53,6 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1U00cRUkgV9KPTb6oruDS6BskJ3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -76,13 +79,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.object_size">
+  <component name="RunManager" selected="CMake Application.container">
     <configuration name="casttype" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cplusplus_base" TARGET_NAME="casttype" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cplusplus_base" RUN_TARGET_NAME="casttype">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="const" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cplusplus_base" TARGET_NAME="const" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cplusplus_base" RUN_TARGET_NAME="const">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="container" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cplusplus_base" TARGET_NAME="container" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cplusplus_base" RUN_TARGET_NAME="container">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -132,6 +140,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seqlist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cplusplus_base" TARGET_NAME="seqlist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cplusplus_base" RUN_TARGET_NAME="seqlist">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="string" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cplusplus_base" TARGET_NAME="string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cplusplus_base" RUN_TARGET_NAME="string">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -145,6 +158,7 @@
     <list>
       <item itemvalue="CMake Application.casttype" />
       <item itemvalue="CMake Application.const" />
+      <item itemvalue="CMake Application.container" />
       <item itemvalue="CMake Application.cplusplus_base" />
       <item itemvalue="CMake Application.duotai" />
       <item itemvalue="CMake Application.duotai_extend" />
@@ -154,6 +168,7 @@
       <item itemvalue="CMake Application.functionoverloading" />
       <item itemvalue="CMake Application.namespaces" />
       <item itemvalue="CMake Application.object_size" />
+      <item itemvalue="CMake Application.seqlist" />
       <item itemvalue="CMake Application.string" />
       <item itemvalue="CMake Application.template" />
     </list>
@@ -172,6 +187,7 @@
       <workItem from="1574650330504" duration="2019000" />
       <workItem from="1574733465196" duration="18012000" />
       <workItem from="1574992104503" duration="2132000" />
+      <workItem from="1575076065420" duration="16829000" />
     </task>
     <servers />
   </component>
@@ -198,6 +214,11 @@
           <url>file://$PROJECT_DIR$/main.cpp</url>
           <line>94</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/container.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

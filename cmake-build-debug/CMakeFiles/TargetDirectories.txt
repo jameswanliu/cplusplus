@@ -12,4 +12,6 @@ D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/function
 D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/friend.dir
 D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/duotai_extend.dir
 D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/object_size.dir
+D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/seqlist.dir
+D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/container.dir
 D:/Users/kevin/cworkspace/c_plus/cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir

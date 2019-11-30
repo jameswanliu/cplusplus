@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\seqlist.dir/objects.a
+"D:\Program Files\JetBrains\mingw64\bin\ar.exe" cr CMakeFiles\seqlist.dir/objects.a @CMakeFiles\seqlist.dir\objects1.rsp
+"D:\Program Files\JetBrains\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\seqlist.dir/objects.a -Wl,--no-whole-archive  -o seqlist.exe -Wl,--out-implib,libseqlist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\seqlist.dir\linklibs.rsp
