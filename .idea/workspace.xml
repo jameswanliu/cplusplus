@@ -2,21 +2,21 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="cplusplus_base" targetName="duotai" />
-      <config projectName="cplusplus_base" targetName="casttype" />
-      <config projectName="cplusplus_base" targetName="functionoverloading" />
       <config projectName="cplusplus_base" targetName="friend" />
-      <config projectName="cplusplus_base" targetName="extend" />
-      <config projectName="cplusplus_base" targetName="const" />
-      <config projectName="cplusplus_base" targetName="string" />
-      <config projectName="cplusplus_base" targetName="seqlist" />
-      <config projectName="cplusplus_base" targetName="duotai_extend" />
       <config projectName="cplusplus_base" targetName="object_size" />
       <config projectName="cplusplus_base" targetName="function" />
-      <config projectName="cplusplus_base" targetName="container" />
       <config projectName="cplusplus_base" targetName="cplusplus_base" />
-      <config projectName="cplusplus_base" targetName="template" />
+      <config projectName="cplusplus_base" targetName="const" />
+      <config projectName="cplusplus_base" targetName="duotai_extend" />
       <config projectName="cplusplus_base" targetName="namespaces" />
+      <config projectName="cplusplus_base" targetName="template" />
+      <config projectName="cplusplus_base" targetName="container" />
+      <config projectName="cplusplus_base" targetName="string" />
+      <config projectName="cplusplus_base" targetName="functionoverloading" />
+      <config projectName="cplusplus_base" targetName="duotai" />
+      <config projectName="cplusplus_base" targetName="casttype" />
+      <config projectName="cplusplus_base" targetName="extend" />
+      <config projectName="cplusplus_base" targetName="seqlist" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,21 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52381f1b-263e-436c-aaaf-889cef79c39f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/const.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/const.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_base.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_base.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/duotai.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/duotai.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cplusplus_base.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cplusplus_base.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/template.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +174,8 @@
       <workItem from="1574733465196" duration="18012000" />
       <workItem from="1574992104503" duration="2132000" />
       <workItem from="1575076065420" duration="16829000" />
+      <workItem from="1575605397864" duration="610000" />
+      <workItem from="1575612636234" duration="637000" />
     </task>
     <servers />
   </component>
